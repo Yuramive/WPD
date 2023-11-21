@@ -1,0 +1,243 @@
+body { 
+    background-image: url(background\ 11.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+h1 { 
+
+    color: midnightblue;
+    font-style: oblique;
+    font-family: cursive;
+    border-style: outset;
+    border-width: 10px;
+    margin-top: 75px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 75px;
+    border-color: rgb(228, 227, 240);
+    background-color: rgba(146, 120, 188, 0.6);
+    align-content: center;
+    text-align: center;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+p {
+
+color: rgb(19, 19, 50);
+text-shadow: 2px  1px  whitesmoke;
+font-family: cursive;
+font-weight: 600;
+font-size: xx-large;
+text-align: center;
+border-style: outset;
+border-radius:10px;
+border-width: 10px;
+margin: 100px;
+border-color: bisque;
+background-color: rgb(134, 113, 172);
+opacity: 70%;
+padding: 40px;
+
+
+}
+
+
+
+
+.topnav 
+{ 
+font-size: x-large;      
+background-color: rgb(117, 139, 194, .7);
+display: flex;
+margin: 1px;
+justify-content: center;
+
+
+}
+
+/* I want to be able to get the Links seperated 
+and centered, also not working. 
+I also want to do the hover feature but I 
+dont know how to do that and I couldnt find it 
+in the weeks lesson.*/ 
+
+nav a { 
+  
+ text-decoration: none;
+ text-align: center;
+ text-shadow: 1px 1px whitesmoke;
+ font-weight: bolder;
+ color: midnightblue;
+ font-family: cursive;
+ display: inline-block;
+ padding-top: 1px;
+ padding-left: 25px;
+ padding-right: 25px;
+ padding-bottom: 1px;
+ position:-ms-page;
+ margin: 10px;
+
+}
+
+nav 
+{
+display: flex;
+}
+
+/* Dont know why its not centered by a few pixles! */
+
+li { 
+    font-family: cursive;
+    font-size: larger;
+    color: aliceblue;
+    border-style: outset; 
+    border-width: 10px;
+    border-color: lightskyblue;
+    background-color: rgba(146, 120, 188, 0.6);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+/* I tried putting p here but it did not get the style I wanted? */
+ul {
+font-weight: 500;
+list-style-type: none;
+margin: 10px;
+}
+
+img { margin-left:20px;}
+
+
+#scrollwrapper 
+{
+scroll-behavior: smooth;
+}
+
+
+a:hover
+{
+background-color: rgb(193, 184, 208);
+color: black;
+}
+
+
+h4 { 
+    color: antiquewhite;
+    font-family:fantasy;
+    font-weight: 600;
+    border-style:double;
+    border-width: 10px;
+    padding: 30px;
+    margin: 50px;
+    background-color: rgb(137, 128, 195);
+    align-items:start;
+
+    
+
+
+}
+
+/* is it okay to have a different font here or is that generally not a good look? */ 
+
+
+img { 
+
+    width: 200px;
+    border-style: outset ;
+    border-width: 5px;
+    margin-bottom: 20px;
+    height: 200px ;
+
+}
+
+.imag {
+    padding-left: 75px;
+    text-align: center;
+    display: grid;
+    row-gap: 10px;
+    grid-column: inherit;
+    grid-template-columns: 1fr 1fr 1fr;  
+
+}
+
+
+
+b { 
+    text-align:left;
+    border-style:solid;
+    border-width: 5px;
+    padding: 10px;
+    background-color: rgb(192, 170, 230);
+    opacity: 75%;
+
+}
+/* So I wanted to add links here and make it 
+possible for them to click on the descriptions 
+and get to the videos of the concerts. 
+Not sure how to do that since I already have "a" as a set style in my css page.*/
+
+footer {
+
+    color: antiquewhite;
+background-color: mediumslateblue;
+opacity: 75%;
+
+}
+
+.contact h1
+{
+
+    border-color: lightblue;
+
+}
+
+
+video 
+{
+width: 300px;
+border: 5px;
+border-style:outset;
+margin: 10px;
+
+}
+
+.gallery 
+{ 
+border-style: solid;
+border-color: antiquewhite;
+border-width: 5px;
+background-color: rgb(160, 128, 213);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 10px;
+padding: 15px;
+columns: 1fr
+}
+
+
+
+.youtubelinks
+{
+ 
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: x-large;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(160, 128, 213);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+}
+
